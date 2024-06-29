@@ -1,21 +1,10 @@
 <script>
   let showTemplates = true;
-  function showTemplatesFunction() {
-    showTemplates = !showTemplates;
-  }
   let showMyFonts = false;
-  function showMyFontsFunction() {
-    showMyFonts = !showMyFonts;
-  }
+
   let showBasicsOptions = true;
   let showLanguagesOptions = true;
 
-  function showBasicsOptionsFunction() {
-    showBasicsOptions = !showBasicsOptions;
-  }
-  function showLanguagesOptionsFunction() {
-    showLanguagesOptions = !showLanguagesOptions;
-  }
   const letters = "abcdefghijklmnopqrstuvwxyz";
 </script>
 
@@ -26,7 +15,7 @@
   <!-- side -->
   <div class="border-r-2 p-2 w-full">
     <button
-      on:click={showTemplatesFunction}
+      on:click={() => (showTemplates = !showTemplates)}
       class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-8 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-2"
       >Templates</button
     >
@@ -38,7 +27,7 @@
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         class="flex justify-between cursor-pointer mb-2"
-        on:click={showBasicsOptionsFunction}
+        on:click={() => (showBasicsOptions = !showBasicsOptions)}
       >
         Basics
         {#if showBasicsOptions}
@@ -68,7 +57,7 @@
       {/if}
       <div
         class="flex justify-between cursor-pointer mb-2"
-        on:click={showLanguagesOptionsFunction}
+        on:click={() => (showLanguagesOptions = !showLanguagesOptions)}
       >
         Languages
         {#if showLanguagesOptions}
@@ -80,7 +69,7 @@
     </div>
 
     <button
-      on:click={showMyFontsFunction}
+      on:click={() => showMyFonts != showMyFonts}
       class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-8 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
       >My Fonts</button
     >
