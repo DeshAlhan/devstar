@@ -1,9 +1,9 @@
 {
-    "name": "",
-    "description":"",
+    "name": "Whiteboard",
+    "description":"It is an online Whiteboard where you can covert your own thoughts to picture",
     "contributors": [{
-        "name": "",
-        "githubId": ""
+        "name": "Aswani Bolisetti",
+        "githubId": "AswaniBolisetti"
     }, {
         "name": "",
         "githubId": ""
