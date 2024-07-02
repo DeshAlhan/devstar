@@ -1,21 +1,20 @@
 import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import path, { fileURLToPath } from 'path';
 
 // Define __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Define the folder containing the tools
-const toolsFolder = path.join(__dirname, 'src', 'routes', '(tools)');
+const toolsFolder = path.resolve(__dirname, 'src', 'routes', 'tools');
 
 // Initialize an empty object to hold the tools data
-let toolsData = {};
+const toolsData = {};
 
 // Read all subfolders within the tools folder
 fs.readdirSync(toolsFolder).forEach(subfolder => {
-    const subfolderPath = path.join(toolsFolder, subfolder);
-    const metaFilePath = path.join(subfolderPath, 'meta.json');
+    const subfolderPath = path.resolve(toolsFolder, subfolder);
+    const metaFilePath = path.resolve(subfolderPath, 'meta.json');
 
     if (subfolder === '.blank') {
         return; // Skip the .blank folder
@@ -37,7 +36,7 @@ fs.readdirSync(toolsFolder).forEach(subfolder => {
 });
 
 // Define the path for tools.json file
-const toolsJsonFilePath = path.join(__dirname, 'src', 'routes', 'tools.json');
+const toolsJsonFilePath = path.resolve(__dirname, 'src', 'routes', 'tools.json');
 
 // Write the content to tools.json file
 fs.writeFileSync(toolsJsonFilePath, JSON.stringify(toolsData, null, 4));
