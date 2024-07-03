@@ -1,5 +1,3 @@
-<!-- Whiteboard.svelte -->
-
 <script>
   let isDrawing = false;
   let ctx;
