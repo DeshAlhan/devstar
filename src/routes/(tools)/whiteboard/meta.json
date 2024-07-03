@@ -1,23 +1,10 @@
 {
-    "name": "",
-    "description":"",
-    "contributors": [{
-        "name": "Harshal Dawande",
-        "githubId": "iHarshalDawande"
-    }, {
-        "name": "",
-        "githubId": ""
-    },
-    {
-        "name": "",
-        "githubId": ""
-    },
-    {
-        "name": "",
-        "githubId": ""
-    },
-    {
-        "name": "",
-        "githubId": ""
-    }]
+    "name": "Whiteboard App",
+    "description": "The Whiteboard App is a versatile tool for creating and sharing digital sketches and drawings. It provides a canvas interface with drawing tools such as pencils, shapes, text, and colors, enabling users to express their creativity conveniently. With features like undo/redo, save/load functionality, and export options, the Whiteboard App is ideal for collaborative brainstorming sessions, educational purposes, and artistic expression.",
+    "contributors": [
+        {
+            "name": "harshal Dawande",
+            "githubId": "iHarshalDawande"
+        }
+    ]
 }
