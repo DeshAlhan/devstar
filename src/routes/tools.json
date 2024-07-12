@@ -81,6 +81,14 @@
         ]
     },
     "code-to-image-converter": {
+
+        "name": "",
+        "link": "/code-to-image-converter",
+        "description": "",
+        "contributors": [
+            {
+                "name": "Munfed Ali",
+                "githubId": "https://github.com/alimunfed17
         "name": "code-to-image-converter",
         "link": "/code-to-image-converter",
         "description": "Code-to-Image Converter transforms your code into a customizable image with options like font size, dark mode, and syntax highlighting. Preview, edit, and download your code as an image in real-time.",
@@ -280,6 +288,33 @@
             }
         ]
     },
+    "liveQ&A": {
+        "name": "",
+        "link": "/liveQ&A",
+        "description": "",
+        "contributors": [
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            }
+        ]
+    },
     "living-background-generator": {
         "name": "Living Background Generator",
         "link": "/living-background-generator",
@@ -349,6 +384,34 @@
             {
                 "name": "Vikas Kushwaha",
                 "githubId": "Vikas350"
+            }
+        ]
+    },
+
+    "number-to-word": {
+        "name": "",
+        "link": "/number-to-word",
+        "description": "",
+        "contributors": [
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
             }
         ]
     },
@@ -444,6 +507,33 @@
             }
         ]
     },
+    "permutations-of-a-string": {
+        "name": "",
+        "link": "/permutations-of-a-string",
+        "description": "",
+        "contributors": [
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            }
+        ]
+    },
     "pomodoro": {
         "name": "Pomodoro",
         "link": "/pomodoro",
@@ -478,6 +568,33 @@
             {
                 "name": "Hannan Satopay",
                 "githubId": "hannansatopay"
+            }
+        ]
+    },
+    "reverse-string": {
+        "name": "",
+        "link": "/reverse-string",
+        "description": "",
+        "contributors": [
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
+            },
+            {
+                "name": "",
+                "githubId": ""
             }
         ]
     },
