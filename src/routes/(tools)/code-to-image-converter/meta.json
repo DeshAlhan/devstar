@@ -1,0 +1,14 @@
+{
+  "name": "code-to-image-converter",
+  "description": "Code-to-Image Converter transforms your code into a customizable image with options like font size, dark mode, and syntax highlighting. Preview, edit, and download your code as an image in real-time.",
+  "contributors": [
+   {
+        "name": "Atharv Amol Dhupkar",
+        "githubId": "atharv-dhupkar22"
+    },
+    {
+      "name": "Shree Jaybhay",
+      "githubId": "shreejaybhay"
+    }
+  ]
+}
